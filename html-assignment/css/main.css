@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    color:brown; 
+}
+.blue-link{
+    background-color: chocolate;
+    color: seagreen;
+}
+#my-image{
+box-shadow: 0 0 2px 1px black;
+}
+ul li:nth-child(odd) {
+background-color: blueviolet;
+}
+a:link{
+text-decoration: none;
+}
+nav a, 
+nav a:link,
+nav a:visited{
+background-color: greenyellow;    
+
+box-shadow: -2px 2px 4px 2px black;
+}
+
+nav a:hover{
+    background-color: white;
+}
