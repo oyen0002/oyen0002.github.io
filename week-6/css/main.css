@@ -1,13 +1,27 @@
+/* Command + / to add a comment block */
+
+html{
+    font-size: 16px ;
+}
+
+
+
 body{
     color:darkslategray;
     font-family: Arial, Helvetica, sans-serif; 
+    background-image: url("../images/white_brick_wall.png");
+background-repeat: no-repeat;
+background-position: 100px 400px;
 }
-
+/* cascading*/
+body{
+    color: red;
+}
 
 h1 {
     color:white 
 }
-
+/* Specificity : 001*/
 p {
     background-color: lightblue;
 }
@@ -35,15 +49,33 @@ text-decoration: none;
     background-color: darkslategray;
     color: orange;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5 x 16px=24px */
 }
 /* id selector */
 #treatofweek{
-    background-color: orange;
+   /* background-color: orange ; */
+   /* colour image repeat */
+   background: darkslategray url("../images/bread.jpg") no-repeat center center;
+   background-size: cover;  
+   color: #ccc;
+   font-size: 1.5rem;
+   /* 1.5 x16px = 24px */
+   /* em is form element's font size */
+   padding: 1em;
+   /* 1 x 1.5rem=v1x 1.5 x 16px = 24px */
+   width: 50%;
+}
+/* overwriting the background-color for the nth-child list item*/ 
+/*0113*/
+#treatoftheweek dl ul li:nth-child(n){
+    background-color: transparent;
 }
 /* Avoid using id for styling, use class mostly */
 
 .large-text{
-    font-size: 20px;
+    font-size: 1.25rem;
+    /*1.25 x 16 =20px */
 }
 /* child selector or direct child selector*/ 
 article>p{
