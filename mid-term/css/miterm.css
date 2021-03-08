@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+    background-color:#D5E8E7; 
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: #A8C8C8;
+    padding: 10px;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:#A8C8C8; ;
+}
+.centered {
+    position: absolute;
+    top: 16%;
+    left: 44%;
+    color: white;
+    font-size: 45px;
+}
+
+a { padding: 0 100px;
+    display: inline;
+    width: 100px;
+}
+
+.bod {
+    border-right: 1px solid black;
+    padding: 0 100px;
+}
+
+.image1{
+    max-width: 800px;
+}
+
+.image2 {
+    width: 200px;
+    float: left;
+    margin: 20;
+}
+
+p{clear: right;
+
+
+}
+
+
+
+h2 {
+    
+    right: 450px;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+section{
+ bottom: 70px;
+}  
+
+
+h3{
+    padding-top: 20px;
+    right: 450px;
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;}
+
+ul,
+li,
+li,
+li,
+li {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+form {
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0;
+    border: 1px solid black;
+
+}
+
+.first {
+    display: block;
+}
+
+.second {
+    width: 99%;
+}
+.lastfoot{
+    text-align: right;
+}
+#yourmessage{
+    width: 99%;
+}
