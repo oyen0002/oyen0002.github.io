@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Merriweather+Sans:wght@300&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav#nav {
+    width:auto;
+    padding: 10px;
+
+    border: 1px solid white;
+    background-color:#204e4a;
+    text-align: center;
+    color: black;
+
+}
+a{
+    color: black;
+}
+
+#nav.nav {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: forestgreen;
+
+}
+
+
+section#home{
+    padding: 100px;
+    background-color:#FCF0CC;
+    font-family:'Frank Ruhl Libre', serif;
+  
+
+}
+section#about {
+    padding: 100px 0px;
+    background-color:#204e4a;
+    font-family:'Frank Ruhl Libre', serif;
+    
+}
+img.about-image{
+    
+      width: 200px;
+        float: left;
+        margin: 20px;
+    }
+
+    form.contact-form{
+        width: 80%;
+    }
+
+
+    main#main {
+        margin: auto;
+        background-color: #d9a520;
+    
+    }
+    
+     p{
+         margin-left: 1rem;
+     }
+
+     .page-title{
+        margin-bottom: 2rem;
+        color: #3C1518;
+     }
+
+     
+     h2.section-title{
+         margin-bottom: 2rem;
+     }
+
+    
+
+@media screen and (min-width: 800px) {
+    .page-title{
+
+        color: green;
+     }
+/* 
+   nav#nav {
+        width:100%;
+        padding: 10px;
+
+        border: 1px solid white;
+        background-color:#204e4a;
+        text-align: center;
+        color: black;
+    }
+    body {
+        width:100%
+
+    }
+    a {
+        color: black;
+    }
+
+    #nav.nav {
+       
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: forestgreen;}
+
+
+    section#home{
+        width: 100%;
+        padding: 100px;
+     
+        background-color:#FCF0CC;
+        font-family:'Frank Ruhl Libre', serif;
+      
+
+    }
+    section#about {
+        padding: 100px 0px;
+        background-color:#204e4a;
+        font-family:'Frank Ruhl Libre', serif;
+        
+    }
+   img.about-image{
+        
+          width: 200px;
+            float: left;
+            margin: 20px;
+        }
+
+        form.contact-form{
+            width: 80%;
+        }
+
+    section#contact{
+        width: 100%;
+        padding: 100px;
+        background-color:#FCF0CC;
+        font-family:'Frank Ruhl Libre', serif;
+      
+    }
+    main#main {
+        max-width: 480px;
+        margin: auto;
+        background-color: white;
+    }
+
+    h2.section.title{
+        font-family:'Frank Ruhl Libre', serif;
+         
+    } */ 
+} 
+
+@media screen and (min-width: 1024px) {
+    .page-title{
+
+        color: #006d77;
+     }
+    
+}
