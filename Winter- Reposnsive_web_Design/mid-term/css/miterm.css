@@ -104,3 +104,63 @@ form {
 #yourmessage{
     width: 99%;
 }
+
+
+
+#text{
+    left: 80px;
+    padding: 2rem;
+    overflow: visible;
+    width: 172px;
+    height: 41px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+
+#text1{
+    left: 303px;
+    top: 664px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    height: 41px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+#text2{
+    left: 513px;
+    top: 664px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    height: 41px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+
+#text3{
+    left: 80px;
+    top: 730px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    height: 41px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}

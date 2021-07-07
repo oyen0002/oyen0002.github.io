@@ -1,0 +1,114 @@
+body{
+    display: block;
+    margin: 8px;
+}
+
+html{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    border: #ec0c8c;
+    border-style:solid;
+    border-width:10px;
+
+}
+
+
+header img  {
+    width: 10%;
+}
+
+#hlogo{
+    width: 70%;
+    border-radius: 36%;
+    padding: 2rem;
+}
+
+nav{
+    padding: 5rem;
+    font-size: 50px;
+    
+}
+
+.sp{
+    padding: 80px;
+}
+
+.row {
+    width: auto;
+    margin: auto;
+    padding: 2rem;
+    }
+
+.columnn {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    border: #ec0c8c;
+    
+}
+
+#text #span{
+   width: 200px;
+   display:inline-block;
+   text-align: left;
+   padding: 2rem;
+}
+
+
+#text1 #span1{
+   text-align:left;
+   width: 200px;
+   display: inline-block;
+   padding: 2rem;
+}
+
+
+#text2 #span2{
+    text-align:left;
+   width: 200px;
+   display: inline-block;
+   padding: 2rem;
+}
+
+
+#text3 #span3{
+    text-align:left;
+   width: 200px;
+   display: inline-block;
+   padding: 2rem;
+}
+
+
+
+
+
+
+
+
+div.container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-45px, -25px);
+    }
+
+.btn{
+    background-color: #ec0c8c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content:center;
+    
+    
+}
+div.social-links{
+    padding-bottom: 5px;
+}
