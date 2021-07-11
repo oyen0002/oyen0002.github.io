@@ -319,10 +319,88 @@ label {
     }
 
     /* delivery page  style codes below */
+    
 
       img.nav-img2{
         height: 100%;
+    
     }
+    button.submit2 {
+        padding: 10px 20px;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #ec0c8c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px gray;
+        margin: 70px;
+    }
+
+    button.submit2:hover {
+        background-color: #3e8e41
+    }
+    button.submit2:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+     /* Menu Page style codes */
+
+
+     div.logo2{
+         
+     }
+
+    div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          button.submit3 {
+            padding: 10px 20px;
+            font-size: 15px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #ec0c8c;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 6px gray;
+            margin: 70px;
+        }
+    
+        button.submit3:hover {
+            background-color: #3e8e41
+        }
+        button.submit3:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+         
 
 
 }
