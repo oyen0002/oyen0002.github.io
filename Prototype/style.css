@@ -250,6 +250,50 @@ label {
     display: none;
 }
 
+/* codes for the menu page on a large screen size */
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ec0c8c;
+    float: left;
+}
+
+button.submit3 {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ec0c8c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px gray;
+}
+
+button.submit3:hover {
+    background-color: #3e8e41
+}
+
+button.submit3:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
 
 
 @media screen and (max-width: 500px) {
@@ -319,12 +363,13 @@ label {
     }
 
     /* delivery page  style codes below */
-    
 
-      img.nav-img2{
+
+    img.nav-img2 {
         height: 100%;
-    
+
     }
+
     button.submit2 {
         padding: 10px 20px;
         font-size: 15px;
@@ -342,80 +387,141 @@ label {
     button.submit2:hover {
         background-color: #3e8e41
     }
+
     button.submit2:active {
         background-color: #3e8e41;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
     }
-     /* Menu Page style codes */
+
+    /* Menu Page style codes */
 
 
-     div.logo2{
+    div.logo2 {
         position: inherit;
         left: 30%;
-        
 
-     }
+
+    }
 
     div.gallery {
-        border: 1px solid #ccc;
-      }
-      
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-      
-      div.gallery img {
+        border: 1px solid #ec0c8c;
+        
+    }
+
+    div.gallery:hover {
+        border: 1px solid #ec0c8c;
+    }
+
+    div.gallery img {
         width: 100%;
         height: auto;
-      }
-      div.gallery {
-        margin: 5px;
-        border: 1px solid #ccc;
-        }
-        div.desc {
-            padding: 15px;
-            text-align: center;
-          }
-          
-          * {
-            box-sizing: border-box;
-          }
-          button.submit3 {
-            padding: 10px 20px;
-            font-size: 15px;
-            text-align: center;
-            cursor: pointer;
-            outline: none;
-            color: #fff;
-            background-color: #ec0c8c;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 6px gray;
-            margin: 70px;
-        }
-    
-        button.submit3:hover {
-            background-color: #3e8e41
-        }
-        button.submit3:active {
-            background-color: #3e8e41;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
-        }
-        div.address{
-    padding: 2rem;
-        }
-         
+    }
+
+   
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    button.submit3 {
+        padding: 10px 20px;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #ec0c8c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px gray;
+        margin: 70px;
+    }
+
+    button.submit3:hover {
+        background-color: #3e8e41
+    }
+
+    button.submit3:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    div.address {
+        padding: 2rem;
+    }
 
 
-}
+
+
 
 
 @media screen and (min-width: 500px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
+    
     nav {
         padding: 1rem;
         font-size: 20px;
     }
+
+}
+
+@media screen and (min-width: 1600px) {
+    div.gallery:hover {
+        border: 1px solid #ec0c8c;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ec0c8c;
+        float: left;
+        width: 20%;
+    }
+    
+    button.submit3 {
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #ec0c8c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px gray;
+    }
+    
+    button.submit3:hover {
+        background-color: #3e8e41
+    }
+    
+    button.submit3:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    
+    }
+    
+    
 
 }
