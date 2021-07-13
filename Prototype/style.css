@@ -293,9 +293,144 @@ div.desc {
     text-align: center;
 
 }
+/* codes for the delivery page on a large screen */
+
+
+img.nav-img2 {
+    
+    width: 50%;
+   
+
+}
+footer.deli {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: gray;
+    padding: 1rem;
+}
+section.room{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.items{
+    width:33%
+}
 
 
 
+
+
+
+ 
+
+
+
+
+
+
+@media screen and (min-width: 500px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
+    
+    nav {
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+.form-delivery{
+    order: 2;
+    position: relative;
+    top: -200px;
+    left: 400px;
+}
+
+}
+
+
+@media screen and (min-width: 1600px)
+
+{
+ div.gallery:hover {
+        border: 1px solid #ec0c8c;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    
+    div.gallery {
+        width: 20%;
+    }
+    
+    button.submit3 {
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #ec0c8c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px gray;
+    }
+    
+    button.submit3:hover {
+        background-color: #3e8e41
+    }
+    
+    button.submit3:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    
+    }
+    /* delivery page codes  */
+    .form-delivery{
+        order: 2;
+        position: relative;
+        top: -80px;
+        left: 32%;
+    }
+    
+    button.submit2 {
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #ec0c8c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px gray;
+        margin:5rem;
+        position: relative;
+        bottom: 10px;
+        left: -10%;
+    }
+
+    button.submit2:hover {
+        background-color: #3e8e41
+    }
+
+    button.submit2:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);}
+
+}
 @media screen and (max-width: 500px) {
 
     html,
@@ -376,7 +511,7 @@ div.desc {
         padding: 1rem;
 
     } 
-
+    /* animated buttons  */
     button.submit2 {
         padding: 10px 20px;
         font-size: 15px;
@@ -406,6 +541,17 @@ div.desc {
         margin-top: -5rem;
         margin-bottom: -10rem;
 
+    }
+    div.tex{
+        margin-bottom: 10rem;
+    }
+
+    section.room{
+        display: block;
+    
+    }
+    .items{
+        width: 100%;
     }
 
     /* Menu Page style codes */
@@ -467,72 +613,3 @@ div.desc {
         box-shadow: 0 5px #666;
         transform: translateY(4px);
     }
-
- 
-
-
-
-
-
-
-@media screen and (min-width: 500px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
-    
-    
-    nav {
-        padding: 1rem;
-        font-size: 20px;
-    }
-
-}
-
-@media screen and (min-width: 1600px)
-
-{
- div.gallery:hover {
-        border: 1px solid #ec0c8c;
-    }
-    
-    div.gallery img {
-        width: 100%;
-        height: auto;
-    }
-    
-    div.gallery {
-        width: 20%;
-    }
-    
-    button.submit3 {
-        padding: 10px 20px;
-        font-size: 15px;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: #ec0c8c;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 6px gray;
-    }
-    
-    button.submit3:hover {
-        background-color: #3e8e41
-    }
-    
-    button.submit3:active {
-        background-color: #3e8e41;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-    
-    div.desc {
-        padding: 15px;
-        text-align: center;
-    
-    }
-    
-    
-
-}
