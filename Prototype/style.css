@@ -231,7 +231,7 @@ div.social-links {
 
 div.ftcon {
     display: flex;
-    justify-content: space-;
+    justify-content: space-between;
     flex-direction: column;
 
 
@@ -327,10 +327,7 @@ section.room{
     }
     
     
-    nav {
-        padding: 1rem;
-        font-size: 20px;
-    }
+   
 
 .form-delivery{
     order: 2;
