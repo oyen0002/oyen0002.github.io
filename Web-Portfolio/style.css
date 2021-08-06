@@ -1,4 +1,6 @@
-
+body{
+    color: white;
+}
 section.home{
     background:#7678ed ;
     position: relative;
@@ -6,26 +8,88 @@ section.home{
 
 section.slide{
     background: #F1DEDE;
+    position: relative;
 }
+
+p#brand-text{
+    position: absolute;
+    bottom: -1rem;
+    right: 45%;
+   
+}
+
+
 section.slide-2{
     background-color: #04a777;
+    position: relative;
 }
+
+p#travel-text{
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: -1rem;
+
+}
+
+
 
 section.slide-3{
     background-color: #111d4a;
+    position: relative;
 }
+
+
+p#app-text{
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: -1rem;
+
+}
+
+
+/* About Page Style  */
+
+section.about-page{
+    background-color: #111d4a;
+    padding: 2rem;
+}
+ul{
+    list-style: none;
+   
+}
+
+
+.btn-secondary{
+    color: #000;
+    background-color: #f1DEDE;
+    border-color: teal;
+}
+
+h2{
+    padding: 1rem;
+}
+
+
 
 
 /* footer style */
 
 div#container{
     background-color: black;
-    margin: 1rem;
+    
 }
 
 div.social-links{
     max-width: 80px;
     margin: auto;
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
   
 }
 
