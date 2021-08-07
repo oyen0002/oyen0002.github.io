@@ -82,25 +82,10 @@ section.contact-page{
    background-color: #7678ed;
    padding: 1rem;
    text-align: center;
-   /* background-image:url(../Web-Portfolio/images/miryam-leon-Jdpvhn6xA0w-unsplash.jpg);
-   background-repeat:no-repeat */
+   background-image:url(../img/icons/miryam-leon-Jdpvhn6xA0w-unsplash);
 
-}
-.form-control{
-   
-    width: auto;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    color:black;
-}
 
-/* resume style */
-section.resume{
-    color: black;
-}
-ul.style{
-    list-style: square;
+
 }
 
 
