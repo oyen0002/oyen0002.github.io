@@ -81,24 +81,30 @@ h2{
 section.contact-page{
    background-color: #7678ed;
    padding: 1rem;
-   text-align: center;
-   /* background-image:url(../Web-Portfolio/images/miryam-leon-Jdpvhn6xA0w-unsplash.jpg);
-   background-repeat:no-repeat */
-
-}
-.form-control{
+   text-align: center; 
+   }
    
-    width: auto;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    color:black;
-}
+   div.style{
+       text-align: center;
+       animation-name: divstyle;
+       animation-duration: 3s;
+   }
 
-/* resume style */
+   @keyframes divstyle{ 0%{
+        transform: rotate(0) translateY(-15%);
+        opacity: 0;}
+        }
+        
+        
+
+/* resume styles  */
+
 section.resume{
     color: black;
 }
+
+
+
 ul.style{
     list-style: square;
 }
@@ -106,7 +112,7 @@ ul.style{
 
 /* footer style */
 
-div#container{
+main#container{
     background-color: black;
     
 }
@@ -161,7 +167,19 @@ section.slide-3{
 
 
 
+
+/* contact page style */
+
+.form-control{
+   
+    width: auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color:black;
 }
-    
 
 
+
+}
+  
