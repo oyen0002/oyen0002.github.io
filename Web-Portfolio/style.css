@@ -228,7 +228,14 @@ form#contact-form{
     background-color:#9e4770;
 }
 
+/* footer style */
 
+div.social-links
+{
+    display: flex;
+    justify-content: center;
+    max-width: none;
+}
 
 }
   
