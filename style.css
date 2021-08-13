@@ -79,6 +79,19 @@ section.work-page {
     
 }
 
+div.container-2{
+    animation: transition 0.76s;
+    animation-name: divcontainer-2;
+    animation-duration: 5s;
+
+}
+
+@keyframes divcontainer-2 {
+    0% {
+        transform: rotate(0) translateX(-15%);
+        opacity: 0;
+    }
+}
 
 
 
@@ -307,14 +320,7 @@ section.resume {
   
   
 
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
