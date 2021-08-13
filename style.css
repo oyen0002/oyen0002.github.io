@@ -111,7 +111,7 @@ section.about-page {
 }
 
 
-div.about-container p:nth-child(1) {
+div.about-container h4:nth-child(1) {
     font-family: fangsong;
     font-weight: bold;
     color: black;
@@ -333,12 +333,17 @@ section.resume {
 
 /* footer style */
 
-main#container {
+div#container {
     background-color: black;
 
 
 }
-main#container_2 {
+div#container_2 {
+    background-color: black;
+    position: relative;
+}
+
+div#container_ab {
     background-color: black;
     position: relative;
     bottom: -200px;
@@ -346,7 +351,8 @@ main#container_2 {
 
 }
 
-main#container-2 {
+
+div#container-2 {
     background-color: black;
     position: relative;
   
@@ -648,8 +654,6 @@ ul.style {
   .resume .resume_right .bold {
     color: #9e4770;
   }
-
-
 
 
 
