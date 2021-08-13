@@ -16,3 +16,13 @@ Resume Page was inspired from this YouTube link https://www.youtube.com/watch?v=
 
 Fonts : Fangsong, Roboto from google fonts 
 
+<!-- Kindly Note Professor Rob you informed me to do this below -->
+
+As per our last discussion I informed you about the  feedback I got from  Professor Angie's, she was concern about the colours so i had to change it 
+and you stated that I should note it down here so you will remember so it doesnt affect my grades. 
+
+Thanky and have a wonderful break. 
+
+Best Regards. 
+
+Samuel 
