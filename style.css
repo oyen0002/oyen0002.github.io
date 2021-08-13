@@ -1,5 +1,7 @@
 body {
     color: white;
+    font-family: fangsong;
+    font-weight: normal;
 }
 
 section.home {
@@ -59,15 +61,19 @@ img.col-3.z-index-master {
 .btn-primary {
     color: white;
     background-color: #198754;
-    width: 20%;
+    
     position: inherit;
     right: 330px;
     bottom: -140px;
     color: black;
-    border-color: bisque;
+    transition-duration: 0.4s;
 
 }
 
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
 
 
 /* Work Styles Page */
@@ -100,9 +106,7 @@ div.container-2{
 
 section.about-page {
     width: 100%;
-    background-image: url("../oyen0002.github.io/images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
 }
 
@@ -334,11 +338,18 @@ main#container {
 
 
 }
+main#container_2 {
+    background-color: black;
+    position: relative;
+    bottom: -200px;
+
+
+}
 
 main#container-2 {
     background-color: black;
     position: relative;
-    bottom: -120px;
+  
 
 
 }
@@ -526,18 +537,18 @@ img {
     .btn-primary {
         color: white;
         background-color: #198754;
-        width: 20%;
         position: inherit;
         right: 330px;
         bottom: -140px;
         color: black;
-        border-color: bisque;
-        border-radius: 15px;
+        transition-duration: 0.7s;
+        border-color: white;
 
     }
 
     .btn-primary:hover {
-        background-color: #9e4770;
+        background-color: white;
+        color: black;
     }
 
 
