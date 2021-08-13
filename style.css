@@ -16,10 +16,25 @@ section.slide {
     position: relative;
 }
 
-p#brand-text {
+
+h2#text{
     position: absolute;
-    bottom: -1rem;
+    bottom: 1px;
     right: 45%;
+    color:white;
+    font-size: 15px;
+    margin: 0.5px;
+}
+
+
+
+h3#brand-text {
+    position: absolute;
+    bottom: 1px;
+    right: 45%;
+    color: black;
+    font-size: 15px;
+    margin: 0.5px;
 
 }
 
@@ -29,11 +44,15 @@ section.slide-2 {
     position: relative;
 }
 
-p#travel-text {
+h4#travel-text {
     color: white;
     position: absolute;
     right: 50%;
     bottom: -1rem;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
+
 
 }
 
@@ -45,12 +64,14 @@ section.slide-3 {
 }
 
 
-p#app-text {
+
+h5#app-text {
     color: white;
     position: absolute;
-    right: 50%;
-    bottom: -1rem;
-
+    right: 160px;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
 }
 
 img.col-3.z-index-master {
@@ -655,6 +676,15 @@ ul.style {
     color: #9e4770;
   }
 
+/* index styles */
+h5#app-text {
+    color: white;
+    position: absolute;
+    right: 50%;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
+}
 
 
     /* footer style */
