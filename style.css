@@ -228,19 +228,98 @@ div.style {
 
 section.resume {
     color: black;
+    font-family: fangsong;
 }
 
-div#container {
-    background-color: #e3d26f;
-    padding: 2rem;
-    margin: 2rem;
-}
+.resume {
+    display: table-footer-group;
+    margin: 50px auto;
+  }
+  
+  .resume .resume_left {
+    background: #e6ebe0;
+    padding: 1rem; 
+  }
+  
+ p.regular{
+     color: #9e4770;
+     font-family: fangsong;
+ }
+  
+  .resume .resume_left .resume_content {
+    padding: 30px;
+  }
+  
+  
+  .resume .resume_left .bold {
+    color: #9e4770;
+    font-family: fangsong;
+  }
+  
+  
+  
+  .resume .resume_item {
+    padding: 25px 0;
+   
+  }
+  
+ 
+  
+  .resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
 
+  
+  .resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #fff;
+    position: relative;
+  }
+  
+  
+  .resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_right {
+    background:#e3d26f;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #9e4770;
+  }
+  
+  
 
-ul.style {
-    list-style: square;
-}
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* **************************** */
 
 /* footer style */
 
@@ -455,6 +534,108 @@ img {
     .btn-primary:hover {
         background-color: #9e4770;
     }
+
+
+
+
+
+
+/* resume styles */
+section.resume {
+    color: black;
+}
+
+div#container {
+    background-color: #e3d26f;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+ul.style {
+    list-style: square;
+}
+/* *************** */
+
+.resume {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  .resume .resume_left {
+    width: 380px;
+    background: #e6ebe0;
+    height: 50%;
+  }
+  
+ p.regular{
+     color: #9e4770;
+ }
+  
+  .resume .resume_left .resume_content {
+    padding: 30px;
+  }
+  
+  
+  .resume .resume_left .bold {
+    color: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_item {
+    padding: 25px 0;
+   
+  }
+  
+ 
+  
+  .resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+
+  
+  .resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #fff;
+    position: relative;
+  }
+  
+  
+  .resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_right {
+    width: 620px;
+    background:#e3d26f;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #9e4770;
+  }
+
+
+
+
 
     /* footer style */
 
